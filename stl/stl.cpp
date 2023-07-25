@@ -17,15 +17,12 @@ int main(){
 //	
 //	cout<<vec[0].first;
 //	vector<int>::iterator it=v.begin();
-auto it = v.begin();
+//auto it = v.begin();
 //	it++;
 //	cout<<*(it)<<" "<<endl;
 //	cout<<v.back();
 
-	// for(it=v.begin();it != v.end();it++){
-	// 	cout<<*(it)<<" ";
-	// }
-	for(auto it: v){
-		cout<<it<<" ";
+	for(it=v.begin();it != v.end();it++){
+		cout<<*(it)<<" ";
 	}
 }
