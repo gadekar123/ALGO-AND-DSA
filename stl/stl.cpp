@@ -22,7 +22,7 @@ int main(){
 //	cout<<*(it)<<" "<<endl;
 //	cout<<v.back();
 
-	for(it=v.begin();it != v.end();it++){
+	for( auto it=v.begin();it != v.end();it++){
 		cout<<*(it)<<" ";
 	}
 }
